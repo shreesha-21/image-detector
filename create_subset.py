@@ -8,9 +8,9 @@ TARGET_DIR = "datasets/my_mini_dataset"
 
 # Define how many images you want for each split
 LIMITS = {
-    'train': 200,
-    'valid': 50,   
-    'test': 50  
+    'train': 750,
+    'valid': 125,   
+    'test': 400  
 }
 
 def create_subset():
