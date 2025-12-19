@@ -1,0 +1,13 @@
+train: ../datasets/my_mini_dataset/train/images
+val: ../datasets/my_mini_dataset/valid/images
+test: ../datasets/my_mini_dataset/test/images
+
+nc: 10
+names: ['TV', 'bed', 'chair', 'clock', 'console', 'door', 'fan', 'light', 'sofa', 'table']
+
+# roboflow:
+#   workspace: achala
+#   project: indoor-objects-3gtbo
+#   version: 20
+#   license: CC BY 4.0
+#   url: https://universe.roboflow.com/achala/indoor-objects-3gtbo/dataset/20
