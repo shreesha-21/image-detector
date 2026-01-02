@@ -1,6 +1,1 @@
-env1/
-datasets/
-/runs
-/my_final_model.pt
-/yolov8n.pt
-result_prediction.jpg
+*.pt
